@@ -99,13 +99,13 @@ export const ChannelSearch = ({ onToggleMyChannels, isOpenMyChannels, input, onC
                         </Select.Content>
                     </Select.Root>
 
-                    <Text as="label" style={{
+                    {/* <Text as="label" style={{
                         width: '20%'
                     }}>
                         <Flex gap="2" align='center'>
                             <Checkbox checked={isOpenMyChannels} onCheckedChange={onToggleMyChannels} /> Only in my channels
                         </Flex>
-                    </Text>
+                    </Text> */}
                 </Flex>
             </Flex>
             <ScrollArea type="always" scrollbars="vertical" style={{ height: 420 }} mt='4'>

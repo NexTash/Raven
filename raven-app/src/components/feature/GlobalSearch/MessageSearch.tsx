@@ -137,7 +137,7 @@ export const MessageSearch = ({ onToggleMyChannels, isOpenMyChannels, onToggleSa
                     <Select.Root value={channelFilter} onValueChange={setChannelFilter}>
                         <Select.Trigger placeholder='Channel / DM' />
                         <Select.Content>
-                            <Select.Item value='any'>Any channel</Select.Item>
+                            {/* <Select.Item value='any'>Any channel</Select.Item>
                             <Select.Group>
                                 <Select.Label>Channels</Select.Label>
                                 {channels.map(option => <Select.Item key={option.name} value={option.name}>
@@ -148,7 +148,7 @@ export const MessageSearch = ({ onToggleMyChannels, isOpenMyChannels, onToggleSa
                                         }} className='text-ellipsis whitespace-break-spaces line-clamp-1'>{option.channel_name}</Text>
                                     </Flex>
                                 </Select.Item>)}
-                            </Select.Group>
+                            </Select.Group> */}
                             <Select.Separator />
                             <Select.Group>
                                 <Select.Label>Direct Messages</Select.Label>
@@ -179,11 +179,11 @@ export const MessageSearch = ({ onToggleMyChannels, isOpenMyChannels, onToggleSa
                         </Select.Content>
                     </Select.Root>
 
-                    <Text as="label" size="2">
+                    {/* <Text as="label" size="2">
                         <Flex gap="2">
                             <Checkbox checked={isOpenMyChannels} onCheckedChange={onToggleMyChannels} /> Only in my channels
                         </Flex>
-                    </Text>
+                    </Text> */}
 
                     <Text as="label" size="2">
                         <Flex gap="2">

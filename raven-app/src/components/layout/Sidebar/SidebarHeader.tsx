@@ -11,7 +11,7 @@ export const SidebarHeader = () => {
                 align='center'
                 pt='1'
                 height='8'>
-                <Text as='span' size='6' className='cal-sans pl-1'>raven</Text>
+                <Text as='span' size='6' className='cal-sans pl-1'>Chaintusker</Text>
                 <ColorModeToggleButton />
             </Flex>
         </header>

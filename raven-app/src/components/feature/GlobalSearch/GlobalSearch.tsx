@@ -44,7 +44,7 @@ export default function GlobalSearch({ isOpen, onClose, tabIndex, input, fromFil
                         <Tabs.List>
                             <Tabs.Trigger value="0">Messages</Tabs.Trigger>
                             <Tabs.Trigger value="1">Files</Tabs.Trigger>
-                            <Tabs.Trigger value="2">Channels</Tabs.Trigger>
+                            {/* <Tabs.Trigger value="2">Channels</Tabs.Trigger> */}
                         </Tabs.List>
                         <Box pt="3" pb="2">
                             <Tabs.Content value="0">
@@ -53,9 +53,9 @@ export default function GlobalSearch({ isOpen, onClose, tabIndex, input, fromFil
                             <Tabs.Content value="1">
                                 <FileSearch onToggleMyChannels={onToggleMyChannels} isOpenMyChannels={isOpenMyChannels} onToggleSaved={onToggleSaved} isSaved={isSaved} input={input} fromFilter={fromFilter} inFilter={inFilter} withFilter={withFilter} />
                             </Tabs.Content>
-                            <Tabs.Content value="2">
+                            {/* <Tabs.Content value="2">
                                 <ChannelSearch onToggleMyChannels={onToggleMyChannels} isOpenMyChannels={isOpenMyChannels} input={input} onClose={onCloseAll} />
-                            </Tabs.Content>
+                            </Tabs.Content> */}
                         </Box>
                     </Tabs.Root>
                 </Flex>

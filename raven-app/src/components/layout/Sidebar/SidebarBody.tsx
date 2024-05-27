@@ -26,7 +26,7 @@ export const SidebarBody = () => {
                     </Box>
                     <PinnedChannels unread_count={unread_count?.message} />
                 </Flex>
-                <ChannelList unread_count={unread_count?.message} />
+                {/* <ChannelList unread_count={unread_count?.message} /> */}
                 <DirectMessageList unread_count={unread_count?.message} />
             </Flex>
         </ScrollArea>

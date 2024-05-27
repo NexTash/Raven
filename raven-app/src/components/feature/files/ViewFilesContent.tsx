@@ -154,7 +154,7 @@ const ViewFilesContent = () => {
                 {data && data.message.length === 0 && (debouncedText.length >= 2 || debouncedText.length == 0) &&
                     <Flex align='center' justify='center' direction='column' gap='2' className="min-h-[32rem]">
                         <Heading size='3'>Nothing to see here</Heading>
-                        <Text size='2' align='center'>No files found in this channel</Text>
+                        <Text size='2' align='center'>No files found in this chat</Text>
                     </Flex>}
 
                 {data && data.message.length !== 0 && <FilesTable data={data.message} />}
