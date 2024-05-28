@@ -96,7 +96,7 @@ after_uninstall = "raven.uninstall.after_uninstall"
 # Permissions evaluated in scripted ways
 
 permission_query_conditions = {
-	"Raven User": "raven.events.freelancer_users.user_permission"
+	"Freelancers": "raven.events.freelancer_users.user_permission"
 }
 #
 # has_permission = {
